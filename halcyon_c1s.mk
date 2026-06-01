@@ -23,8 +23,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/non_ab_device.mk)
 $(call inherit-product, device/samsung/c1s/device.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common Halcyon stuff.
+$(call inherit-product, vendor/halcyon/config/common.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := c1s
